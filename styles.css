@@ -38,7 +38,7 @@ h1, p {
     /*Requirement 10.1*/
     max-width: 20%;
     /*Requirement 16.1*/
-    visibility: visible;
+    visibility: none;
 }
 
 /*Requirement 5.E*/
@@ -48,12 +48,12 @@ class:first-child{
 
 /*Requirement 6.F*/
 div tr{
-    color: red;
+    color: black;
 }
 
 a{
     /*Requirement 12.1*/
-    display: none;
+    display: visible;
 }
 
 
