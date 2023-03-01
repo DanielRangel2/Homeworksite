@@ -12,17 +12,23 @@ p {
   .h3{
     /*Requirement 4.2*/
     background-color: aquamarine;
+    /*Requirement 15.1*/
+    position: absolute;
  
   }
 /*Requirement 2.B*/
 h1, p {
     font-family: Arial;
+    /*Requirement 13.1*/
+    clear: none;
   }
 
 /*Requirement 3.C*/
 .head{
     /*Requirement 9.1*/
     font-size:18px;
+    /*Requirement 17.1*/
+    z-index: 3;
 }
 
 /*Requirement 4.D*/
@@ -30,6 +36,8 @@ h1, p {
     font-size:18px;
     /*Requirement 10.1*/
     max-width: 20%;
+    /*Requirement 16.1*/
+    visibility: visible;
 }
 
 /*Requirement 5.E*/
@@ -55,7 +63,9 @@ details {
     /*Requirement 6.1*/
     padding: 5px;
     /*Requirement 7.6*/
-    width: 100px
+    width: 100px;
+    /*Requirement 14.1*/
+    overflow: auto;
 }
 
 ol {
