@@ -1,44 +1,19 @@
-.test1 {
-    background-color: lightgreen;
-  }
-  p.test1 {
-    color: white;
-  }
-  
-  div.test2 {
-    background-color: lightblue;
-  }
-  p.test2 {
-    color: red;
-  }
-  
-  <div class="test1">DIV TEST1</div>
-  <p class="test1">P TEST1</p>
-  <div class="test2">DIV TEST2</div>
-  <p class="test2">P TEST2</p>
-
+/* Requirement-1.A */
 p {
-  font-size: 20px;
-  font-weight: bold;
-  color: green;
-}
+    /*Requirement 1.1*/
+    font-size: 16px;
+    /*Requirement 1.3*/
+    color: #111;
+    /*Requirement 1.2*/
+    text-align: center;
+  }
 
-div {
-  width: 100px;
-  height: 100px;
-  background: red;
-  margin: 50px 0px;
-}
 
-.blue {
-  background: blue;
-}
-
-.fence {
-  border: 2px dashed hotpink;
-}
-
-/** Applies to all spans with class name "strike" **/
-span.strike {
-  text-decoration: line-through;
-}
+  .h1{
+    /*Requirement 1.4*/
+    background-color: aquamarine;
+  }
+/*Requirement 2.B*/
+h1, p {
+    font-family: Arial;
+  }
