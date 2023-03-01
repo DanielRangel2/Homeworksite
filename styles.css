@@ -9,7 +9,7 @@ p {
   }
 
 
-  .h1{
+  .h3{
     /*Requirement 1.4*/
     background-color: aquamarine;
   }
@@ -17,3 +17,35 @@ p {
 h1, p {
     font-family: Arial;
   }
+
+/*Requirement 3.C*/
+.head{
+    font-size:18px;
+}
+
+/*Requirement 4.D*/
+#idName {
+    font-size:18px;
+}
+
+/*Requirement 5.E*/
+class:first-child{
+    font-size: 18px;
+}
+
+/*Requirement 6.F*/
+div tr{
+    color: red;
+}
+
+
+/*Requirement 7.G*/
+details {
+    border: 1px solid;
+    padding: 5px;
+}
+
+/*Requirement 8.H*/
+summary {
+    font-weight: bold;
+}
