@@ -14,6 +14,7 @@ p {
     background-color: aquamarine;
     /*Requirement 15.1*/
     position: absolute;
+    float: right;
  
   }
 /*Requirement 2.B*/
