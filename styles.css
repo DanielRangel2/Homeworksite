@@ -16,3 +16,29 @@
   <p class="test1">P TEST1</p>
   <div class="test2">DIV TEST2</div>
   <p class="test2">P TEST2</p>
+
+p {
+  font-size: 20px;
+  font-weight: bold;
+  color: green;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  margin: 50px 0px;
+}
+
+.blue {
+  background: blue;
+}
+
+.fence {
+  border: 2px dashed hotpink;
+}
+
+/** Applies to all spans with class name "strike" **/
+span.strike {
+  text-decoration: line-through;
+}
